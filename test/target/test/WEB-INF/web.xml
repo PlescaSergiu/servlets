@@ -1,0 +1,19 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <servlet>
+    <servlet-name>getAgeServlet</servlet-name>  <!-- any name -->
+    <servlet-class>ro.sci.servlet.GetAgeServlet</servlet-class>
+  
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>getAgeServlet</servlet-name> <!-- the same name as in the definition-->
+    <url-pattern>/myAge</url-pattern>
+  </servlet-mapping>
+
+</web-app>
